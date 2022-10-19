@@ -1,0 +1,15 @@
+.input-date {
+    width: 150px;
+    height: 30px;
+    border: 1px solid #80CFA9;
+    cursor: pointer;
+}
+
+.sent-table {
+    cursor: default;
+}
+
+.list-sent-sms {
+    margin: 0 auto 20px auto;
+    width: 80%;
+}

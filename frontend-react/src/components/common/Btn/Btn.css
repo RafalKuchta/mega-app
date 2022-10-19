@@ -1,0 +1,25 @@
+button {
+    width: 20%;
+    border-radius: 3px;
+    border: 1px solid #80CFA9;
+    color: #80CFA9;
+}
+
+.btn {
+    margin: 20px;
+    width: 40%;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 1px solid #80CFA9;
+    color: #80CFA9;
+    text-decoration: none;
+}
+
+button:hover, .btn:hover {
+    background: #80CFA9;
+    color: white;
+}
+
+button:active, .btn:active {
+    box-shadow: 0 0 5px #5555;
+}

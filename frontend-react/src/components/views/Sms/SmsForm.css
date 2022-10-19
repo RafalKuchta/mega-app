@@ -1,0 +1,199 @@
+.wrapper-sms {
+    width: 40%;
+    margin: 10px auto;
+    animation: back .5s linear alternate;
+}
+
+.wrapper-sms--showAll {
+    width: 40%;
+    margin: 10px 55% 10px auto;
+    animation: runSms .5s linear alternate;
+}
+
+@keyframes runSms {
+    0% {
+        width: 40%;
+        margin: 10px 30% 10px auto;
+    }
+
+    100% {
+        width: 40%;
+        margin: 10px 55% 10px auto;
+    }
+}
+
+.addNumberToSend-wrapper {
+    position: absolute;
+    top: 60px;
+    right: 5%;
+    height: 85vh;
+    width: 45%;
+    margin-top: 10px;
+    overflow-y: scroll;
+    animation: runPhones .5s linear alternate;
+}
+
+
+@keyframes runPhones {
+    0% {
+        position: fixed;
+        top: 60px;
+        right: -20%;
+        height: 100vh;
+        width: 45%;
+        overflow-y: scroll;
+    }
+
+    100% {
+        position: fixed;
+        top: 60px;
+        right: 5%;
+        height: 100vh;
+        width: 45%;
+        overflow-y: scroll;
+    }
+}
+
+
+.wrapper-sms button,
+.wrapper-sms--showAll button {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.button-add {
+    margin-bottom: 10px;
+}
+
+.wrapper-sms .add,
+.wrapper-sms--showAll .add,
+.wrapper-sms select,
+.wrapper-sms--showAll select,
+.wrapper-sms textarea,
+.wrapper-sms--showAll textarea{
+    height: 100%;
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid #80CFA9;
+    background: white;
+}
+
+.codeAndNumber {
+    display: flex;
+    margin: 10px auto 0 auto;
+}
+
+.wrapper-sms .input-one-sm--code,
+.wrapper-sms--showAll .input-one-sm--code {
+    height: 100%;
+    width: 8%;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #80CFA9;
+    background: white;
+}
+
+.input-code-border-red {
+    height: 100%;
+    width: 8%;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid red;
+    background: white;
+}
+
+.wrapper-sms .input-one-sms,
+.wrapper-sms--showAll .input-one-sms{
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #80CFA9;
+    background: white;
+}
+
+.wrapper-sms .input-one-sms--error {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid red;
+    background: white;
+}
+
+.error {
+    margin-left: 15%;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.wrapper-sms textarea,
+.wrapper-sms--showAll textarea {
+    height: 100px;
+}
+
+input:focus {
+    outline-color : #80CFA9;
+}
+
+.wrapper-icon-plus {
+    height: 30px;
+}
+
+.icon-plus {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #80CFA9;
+}
+
+.icon-plus-border-red  {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+}
+
+.phonesToSend-wrapper {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.phonesToSend-count {
+    margin-bottom: 15px;
+}
+
+.phonesToSend-count--span {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    background: #007aff;
+    border: 0.1em solid #007aff;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 2em;
+    box-sizing: content-box;
+}
+
+.phonesToSend {
+    display: flex;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #80CFA9;
+}
+
+.phonesToSend .phonesToSend-details {
+    width: 90%;
+}
+
+.phonesToSend .phonesToSend-trash {
+    width: 10%;
+}

@@ -1,0 +1,76 @@
+.login {
+    margin: 5%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 10px auto;
+    padding: 20px;
+    background: white;
+}
+
+.login-form label {
+    margin-bottom: 10px;
+    background: white;
+}
+
+.login-form--input-pass {
+    position: relative;
+    display: flex;
+    background-color: white;
+}
+
+
+.login-form input {
+    width: 100%;
+    height: 30px;
+    border-right: 1px solid #80CFA9;
+    border-radius: 5px;
+}
+
+
+.div-icon-faEye {
+    position: absolute;
+    height: 30px;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-45%);
+    background-color: transparent;
+}
+
+.div-email-input {
+    background-color: transparent;
+}
+
+.icon-faEye, .faEyeSlash {
+    color: gray;
+}
+
+.submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: white;
+}
+
+.login-form button {
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.login-submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    background: white;
+}
+
+.login-submit a {
+    background: white;
+    height: 100%;
+    text-align: center;
+}

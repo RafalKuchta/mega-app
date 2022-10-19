@@ -1,0 +1,74 @@
+
+.input-message {
+    position: fixed;
+    bottom: 20px;
+    width: 50%;
+}
+
+.input-message input {
+    height: 30px;
+}
+
+.input-message button {
+    height: 30px;
+}
+
+.messages-page {
+    width: 800px;
+    margin: 0 auto 100px auto;
+}
+
+.message-chat-inside {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #80CFA9;
+    background: white;
+    border-radius: 10px;
+}
+
+.message-chat-outside {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0 10px 100px;
+    border: 2px solid #80CFA9;
+    background: #93deba;
+    border-radius: 10px;
+}
+
+.message-chat--paragraf {
+    font-size: 12px;
+    font-weight: bold;
+    background: white;
+    margin-bottom: 2px;
+}
+
+.message-chat--user-inside {
+    font-size: 13px;
+    background: white;
+}
+
+.message-chat--user-outside {
+    font-size: 13px;
+    background: #93deba;
+}
+
+.message-chat--time-inside, .message-chat--time-inside > p {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+}
+
+.message-chat--time-outside, .message-chat--time-outside > p {
+    display: flex;
+    justify-content: space-between;
+    background: #93deba;
+}
+
+.message--time-inside {
+    font-size: 13px;
+}
+
+.message--time-outside {
+    font-size: 13px;
+}

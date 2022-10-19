@@ -1,0 +1,9 @@
+.wrapper-done {
+    display: flex;
+}
+
+.tasks-done {
+    width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+}

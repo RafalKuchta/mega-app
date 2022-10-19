@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Great+Vibes&family=Noto+Sans+JP:wght@500&family=Source+Sans+Pro:ital@1&family=Splash&family=The+Nautigal&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #F5F5F5;
+  font-size: 15px;
+}
+
+

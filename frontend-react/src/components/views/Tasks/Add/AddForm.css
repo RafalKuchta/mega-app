@@ -1,0 +1,29 @@
+.wrapper-add-task {
+    height: 50px;
+}
+
+.wrapper-add-task--add-task {
+    display: flex;
+    height: 30px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.add-task--input {
+    height: 100%;
+}
+
+input:focus {
+    outline-color : #80CFA9;
+}
+
+
+@Media (max-width: 600px){
+    .awrapper-add-task--add-task {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+}
+
+

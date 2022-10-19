@@ -1,0 +1,27 @@
+.addNumberToSend {
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 5px;
+}
+
+.addNumberToSend:hover {
+    border: 1px solid gray;
+}
+
+.addNumberToSend--active {
+    font-weight: bold;
+}
+
+.addNumberToSend--paragraf {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 30px;
+}
+
+.addNumberToSend--checkbox {
+    width: 20px;
+    margin: 0 5px 0 0;
+}

@@ -1,0 +1,28 @@
+.addGroupToSend {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px
+}
+
+.addGroupToSend:hover {
+    border: 1px solid gray;
+}
+
+.addGroupToSend--active {
+    font-weight: bold;
+}
+
+.addGRoupToSend--paragraf {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 30px;
+}
+
+.addGroupToSend--checkbox {
+    margin: 0 5px 0 0;
+    width: 20px;
+}

@@ -1,0 +1,17 @@
+.wrapper-edit-user {
+    width: 60%;
+    margin: 20px auto;
+    height: 20px;
+}
+
+
+.edit-user input, .edit-user select, .edit-user button {
+    display: block;
+    border: 1px solid #80CFA9;
+    height: 30px;
+}
+
+.edit-user select {
+    padding-top: 0;
+    padding-bottom: 0;
+}

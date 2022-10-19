@@ -1,0 +1,90 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #80CFA9;
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    /*color: #71bef5;*/
+    color: #345DE0;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+a.todo {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    margin: 10px 5px;
+}
+
+.todo:hover {
+    font-weight: bold;
+    border-bottom: 1px solid #80CFA9;
+}
+
+a.chat, a.sms, a.numbers-list, a.sent {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    margin: 10px 5px;
+}
+
+a.sms {
+    margin: 10px 5px 10px 30px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.chat:hover, .sms:hover, .numbers-list:hover, a.sent:hover {
+    font-weight: bold;
+    border-bottom: 1px solid #80CFA9;
+}
+
+.user {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+}
+
+.user p {
+    padding-left: 52px;
+}
+
+.user .svg-inline--fa {
+    margin-left: 5px;
+}
+
+.user button {
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+}
+
+.logoutSettingButtons .logout {
+    margin-bottom: 0;
+}
+
+.logoutSettingButtons > .settings {
+    margin-top: 0;
+    border-top: none;
+}
+
+
+

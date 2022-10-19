@@ -1,0 +1,9 @@
+.wrapper-edit-task {
+    width: 60%;
+    margin: 20px auto;
+    height: 20px;
+}
+
+.wrapper-edit-task input, .wrapper-edit-task button {
+    height: 30px;
+}

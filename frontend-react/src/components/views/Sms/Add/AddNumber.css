@@ -1,0 +1,52 @@
+.wrapper-add-phones {
+    width: 60%;
+    margin: 10px auto;
+}
+
+.wrapper-add-phones button {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.wrapper-add-phones label {
+    display: inline-block;
+    width: 100%;
+}
+
+.wrapper-add-phones .input-number,
+.wrapper-add-phones .input-name,
+.wrapper-add-phones .input-surname,
+.wrapper-add-phones .input-company,
+.wrapper-add-phones .input-position{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0 10px 0;
+    border: 1px solid #80CFA9;
+}
+
+.wrapper-add-phones .add,
+.wrapper-add-phones select,
+.wrapper-add-phones textarea {
+    height: 100%;
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid #80CFA9;
+    background: white;
+}
+
+.wrapper-add-phones textarea {
+    height: 100px;
+}
+
+input:focus {
+    outline-color : #80CFA9;
+}
+
+.input--error {
+    width: 100%;
+    height: 30px;
+    margin: 10px 0 10px 0;
+    border: 1px solid red;
+}
